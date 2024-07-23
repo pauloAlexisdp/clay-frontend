@@ -1,0 +1,50 @@
+/* src/App.css */
+
+/* Contenedor principal */
+.container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Cabecera con título, selector de locale y botón de añadir */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Estilo para el título */
+.title {
+  flex-grow: 1;
+}
+
+/* Estilo para el selector de locale */
+.locale-select {
+  margin-right: 20px;
+}
+
+/* Estilo para el botón de añadir */
+.add-button {
+  margin-right: 20px;
+}
+
+/* Contenedor de la tabla */
+.table-container {
+  flex-grow: 1;
+}
+
+/* Pie de página */
+.footer {
+  margin-top: auto;
+  padding: 20px 0;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+/* Clase CSS para el botón Cancel */
+.cancel-button {
+  color: red;
+}
